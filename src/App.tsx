@@ -1,17 +1,16 @@
 import React from 'react';
-import { Greeting } from './components/greeting/Greeting'
+import { Routes } from './routes/Routes'
+import { DesktopNavigation } from './components/desktopnavigation/DesktopNavigation'
 
 
 function App() {
   return (
-    <>
-      
-      <Greeting />
-      <Greeting />
-      <Greeting />
-      <Greeting />
+    <Routes>
 
-    </>
+      <DesktopNavigation />
+
+
+    </Routes>
   );
 }
 
