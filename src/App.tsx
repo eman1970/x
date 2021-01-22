@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes } from './routes/Routes'
-import { DesktopNavigation } from './components/desktopnavigation/DesktopNavigation'
+import { DesktopNavigation } from './components/navigation/desktopnavigation/DesktopNavigation'
 
 
 function App() {

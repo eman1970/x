@@ -1,5 +1,5 @@
 import './DesktopNavigation.css'
-import Logotype from '../../shared/images/logotype.svg'
+import Logotype from '../../../shared/images/logotype.svg'
 
 export const DesktopNavigation = () => {
     return (
