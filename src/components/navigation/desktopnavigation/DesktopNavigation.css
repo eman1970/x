@@ -9,3 +9,12 @@
     width: 90px;
 
 }
+
+.signInButton, .profile {
+    grid-column: 10/10;
+}
+
+
+ 
+   
+ 

@@ -1,0 +1,26 @@
+.profileImg {
+width: 50px;
+border-radius: 50%;
+
+}
+
+.profileDropDown {
+display: none;
+position: absolute;
+background-color: black;
+
+}
+
+
+.profileWrapper:hover  .profileDropDown {
+    display: block;
+
+}
+
+.profileDropdown span {
+
+display: block;
+cursor: pointer;
+padding: 10px;
+color: white;
+}

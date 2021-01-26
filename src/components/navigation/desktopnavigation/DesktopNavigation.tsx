@@ -12,9 +12,9 @@ export const DesktopNavigation = () => {
 
     const displaySignInButtonOnAuthetication = () => {
 
-        return authUser
-            ? <Profile />
-            : <span onClick={() => history.push(RoutingPath.signInView)}>Sign In</span>
+        return authUser ?.username
+            ? <div className="profile"><Profile /></div>
+            : <span className="signInButton" onClick={() => history.push(RoutingPath.signInView)}>Sign In</span>
     }
 
     return (
