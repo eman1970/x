@@ -1,14 +1,24 @@
 const homeView = '/'
-const aboutView = '/about'
+ 
 const signInView = '/signin'
-const contactView = '/contact'
+const accessoriesView = '/accessories'
+const brandsView = '/brands'
+const expertisView = '/expertis'
+const newsView = '/news'
+const shopView = '/shop'
 
 export default {
 
 homeView,
-aboutView,
+ 
 signInView,
-contactView
+accessoriesView,
+brandsView,
+expertisView,
+newsView,
+shopView
+
+
 
 
 }

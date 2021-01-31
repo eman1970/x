@@ -5,6 +5,7 @@ import { useContext } from 'react'
 import RoutingPath from '../../../routes/RoutingPath'
 import { UserContext } from '../../../shared/provider/UserProvider'
 import { Profile } from '../../profile/Profile'
+import { DesktopNavigationTabs } from './desktopnavigationtabs/DesktopNavigationTabs'
 
 export const DesktopNavigation = () => {
     const history = useHistory()
@@ -12,9 +13,9 @@ export const DesktopNavigation = () => {
 
     const displaySignInButtonOnAuthetication = () => {
 
-        return authUser ?.username
+        return authUser?.username
             ? <div className="profile"><Profile /></div>
-            : <span className="signInButton" onClick={() => history.push(RoutingPath.signInView)}>Sign In</span>
+            : <span className="signInButton" onClick={() => history.push(RoutingPath.signInView)}>sign In</span>
     }
 
     return (
@@ -23,11 +24,14 @@ export const DesktopNavigation = () => {
             <img className="navigationLogotype"
                 src={Logotype}
                 alt={''} />
+                <DesktopNavigationTabs />
 
-            <span onClick={() => history.push(RoutingPath.homeView)}>Home</span>
-            <span onClick={() => history.push(RoutingPath.aboutView)}>About</span>
-            <span>{displaySignInButtonOnAuthetication()}</span>
-
+<div className="desktopNavigationTabs">
+    {displaySignInButtonOnAuthetication()}
+    </div>
+           
         </div>
     )
 }
+
+ 

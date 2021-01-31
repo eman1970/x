@@ -19,6 +19,12 @@ border-radius: 50%;
         z-index: 1;
       }
       
-      .profileWrapper:hover .dropdown-content {
+      .profileWrapper:hover .dropdown-content  {
         display: block;
+      }
+
+      #username {
+        position: absolute;
+        margin-top: 0;
+        margin-left: 53px;
       }

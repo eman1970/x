@@ -8,13 +8,33 @@
 
     width: 90px;
 
+
+}
+
+.navigationLogotype img{
+
+position: absolute;
+margin-left: 218px;
+margin-top: 16px;
+
 }
 
 .signInButton, .profile {
-    grid-column: 10/10;
+position: absolute;
+margin-left: 218px;
+margin-top: 16px;
+font-family: 'Roboto', sans-serif;
+font-weight: 1000;
+color: #FFFFFF;
 }
 
 
+.desktopNavigationTabs {
+
+    grid-columns: 7/9;
+    align-items: center;
+  
+}
  
    
  
