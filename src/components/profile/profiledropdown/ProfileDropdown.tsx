@@ -21,12 +21,9 @@ export const ProfileDropdown = () => {
 
     return (
         <div className="dropdown-content">
-            <span><a href="#">accessories</a></span><br />
-            <span><a href="#">brands</a></span><br />
-            <span><a href="#">expertis</a></span><br />
-            <span><a href="#">news</a></span><br />
-            <span><a href="#">shop</a></span><br />
-            <span onClick={() => logout()}><a href="#">Sign Out</a></span>
+            <span><a href="#">profile</a></span><br />
+            <span><a href="#">settings</a></span><br />
+             <span onClick={() => logout()}><a href="#">signout</a></span>
         </div>
     )
 }
