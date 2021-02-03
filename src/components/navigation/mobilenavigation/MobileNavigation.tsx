@@ -5,13 +5,13 @@ import './MobileNavigation.css'
 import {useState} from 'react'
 
 export const MobileNavigation = () => {
-    const [openDrawer, setOpenDrawer] = useState<boolean>(false)
+    const [openDrawer, setOpenDrawer] = useState<boolean>(true)
 
     return (
         <div>
             <HamburgerButton />
             <Sidebar drawerIsOpen={openDrawer} drawerHandler={setOpenDrawer} />
-            <button onClick={() => setOpenDrawer(true)}>OPEN sidebar</button>
+            
              
         </div>
     )
