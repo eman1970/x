@@ -1,6 +1,6 @@
 .side-drawer {
 height: 100%;
-background-color: aliceblue;
+background-color: #b5d5d1;
 position: fixed;
 top: 0;
 left: 0;
@@ -9,6 +9,7 @@ max-width: 400px;
 z-index: 100;
 transform: translateX(-100%);
 transition: 0,3 ease-in-out;
+border: 1px solid #000000;
 
 }
 

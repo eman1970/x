@@ -7,6 +7,7 @@ border-radius: 50%;
      .profileWrapper {
         position: relative;
         display: inline-block;
+         
       }
       
       .dropdown-content {
@@ -21,6 +22,7 @@ border-radius: 50%;
       
       .profileWrapper:hover .dropdown-content  {
         display: block;
+   
       }
 
       #username {

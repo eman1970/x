@@ -14,6 +14,7 @@ export const Profile = () => {
             <img className="profileImg" src={'https://thispersondoesnotexist.com/image'} />
                        <ProfileDropdown />
                        
+                       
              
             </div>
        

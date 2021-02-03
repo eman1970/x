@@ -4,7 +4,7 @@
 }
 
 .liTabs {
-display: inline;
+display: block;
 cursor: pointer;
 color: white;
 font-weight: 1000;
@@ -12,3 +12,11 @@ font-family: 'Roboto', sans-serif;
 padding: 6%;
 
 }
+
+
+@media screen and (min-width: 480px) {
+    .liTabs {
+        display: inline;
+       
+    }
+  }

@@ -9,7 +9,7 @@ import { UserContext } from '../shared/provider/UserProvider'
 export const SignInView = () => {
     const history = useHistory()
     const [loginCredentials, setLoginCredentials] = useState<loginCredentials>({ username: '', password: '' })
-    const [authUser, setAuthUser]= useContext(UserContext)
+    const [authUser, setAuthUser] = useContext(UserContext)
 
     const signIn = () => {
         localStorage.setItem('user', loginCredentials.username)
@@ -21,8 +21,8 @@ export const SignInView = () => {
     return (
 
         <div>
-            <h1>{loginCredentials.username}</h1>
-            <h1>{loginCredentials.password}</h1>
+            <br />
+
             <form>
                 <input placeholder='username'
                     onChange={event => setLoginCredentials({ ...loginCredentials, username: event.target.value })} /><br />

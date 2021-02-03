@@ -11,7 +11,7 @@ export const MobileNavigation = () => {
         <div>
             <HamburgerButton />
             <Sidebar drawerIsOpen={openDrawer} drawerHandler={setOpenDrawer} />
-            <button onClick={() => setOpenDrawer(true)}>TEST</button>
+            <button onClick={() => setOpenDrawer(true)}>OPEN sidebar</button>
              
         </div>
     )
